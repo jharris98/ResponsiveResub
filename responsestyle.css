@@ -1,0 +1,61 @@
+*{
+    margin: 0 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #81ff54;
+    box-sizing: border-box;
+    z-index: 101;
+}
+
+.home{
+   margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6px;
+    height: 200px;
+    box-sizing: border-box;
+    width: 250px;
+    background-color: grey;
+    z-index: 100;
+    float: left;
+}
+
+p{
+word-break: inherit;
+}
+
+
+
+
+button{
+    position: inherit;
+}
+
+@media screen and (max-width: 800px){
+.home{width: 100%;
+    }
+}
+
+/*I commented this out and got the effect I needed, I kept getting the outcomes backwards.*/
+/*@media screen and (min-width: 800px){
+    div,figure,figcaption,splash{
+        width: 250px;
+}
+}*/
+
+
+
+#splash{
+     padding: 20px 5px;
+    background: cornflowerblue;
+    width: 100%;
+
+}
+
+figcaption{
+    border: 2px black solid;
+    border-top-color: white;
+}
